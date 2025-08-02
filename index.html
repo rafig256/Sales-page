@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خرید جزوات - آموزشگاه علمی جاذبه</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Header Menu -->
+<header class="header">
+    <nav class="nav-container">
+        <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="#home">خانه</a></li>
+            <li><a href="https://jazebeedu.ir" target="_blank">آموزشگاه جاذبه</a></li>
+            <li><a href="https://jazebest.ir/studentRegister" target="_blank">ثبت نام دانش آموز</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <!-- Welcome Box -->
+    <div class="welcome-box">
+        <h1>به صفحه خرید جزوات خوش آمدید</h1>
+        <p>شما می توانید از بین جزوات زیر مربوط به دبیران مختلف، یکی را انتخاب کرده و سفارش خود را با پرداخت هزینه ثبت نمایید. جزوات سفارش داده شده حداکثر ظرف 6 ساعت کاری از آموزشگاه علمی جاذبه واقع در باش چهارراه قابل تحویل خواهند بود. پس از هدایت به صفحه ی خرید نام و شماره تماس خود را حتما درج نمایید و رسید خرید را همراه خود نگه دارید.</p>
+    </div>
+
+    <!-- Teacher 1 - Chemistry -->
+    <div class="teacher-card">
+        <div class="teacher-header" onclick="toggleProducts('math')">
+            <div class="teacher-info">
+                <img src="images/zeynali.jpg" alt="استاد شیمی" class="teacher-avatar">
+                <div class="teacher-details">
+                    <h3>آقای زینالی</h3>
+                    <p>دبیر شیمی</p>
+                </div>
+            </div>
+            <div class="dropdown-arrow" id="arrow-math">▼</div>
+        </div>
+        <div class="products-container" id="products-math">
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="images/shimi1.jpg" alt="جزوه شیمی دهم" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">جزوه شیمی دهم فصل 1</div>
+                        <div class="product-grade">پایه دهم</div>
+                        <div class="product-price">170,000 تومان</div>
+                        <a class="buy-button" href="https://aqayepardakht.ir/12463" target="_blank">پرداخت</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/shimi2.jpg" alt="جزوه شیمی یازدهم" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">جزوه شیمی یازدهم فصل 1 </div>
+                        <div class="product-grade">پایه یازدهم</div>
+                        <div class="product-price">170,000 تومان</div>
+                        <a class="buy-button" href="https://aqayepardakht.ir/12464" target="_blank">پرداخت</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/shimi3.jpg" alt="جزوه شیمی 3" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">جزوه شیمی دوازدهم فصل 1</div>
+                        <div class="product-grade">پایه دوازدهم</div>
+                        <div class="product-price">170,000 تومان</div>
+                        <a class="buy-button" href="https://aqayepardakht.ir/12465" target="_blank">پرداخت</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/shimi3.jpg" alt="جزوه شیمی3 فصل 2" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">جزوه شیمی دوازدهم فصل 2</div>
+                        <div class="product-grade">پایه دوازدهم</div>
+                        <div class="product-price">130,000 تومان</div>
+                        <a class="buy-button" href="https://aqayepardakht.ir/12868" target="_blank">پرداخت</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Teacher 2 - Math -->
+    <div class="teacher-card">
+        <div class="teacher-header" onclick="toggleProducts('physics')">
+            <div class="teacher-info">
+                <img src="images/namat.jpg" alt="استاد ریاضی" class="teacher-avatar">
+                <div class="teacher-details">
+                    <h3>آقای ولی الهی</h3>
+                    <p>دبیر ریاضی</p>
+                </div>
+            </div>
+            <div class="dropdown-arrow" id="arrow-physics">▼</div>
+        </div>
+        <div class="products-container" id="products-physics">
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="images/math1.jpg" alt="جزوه ریاضی 1" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">جزوه ریاضی یک</div>
+                        <div class="product-grade">پایه دهم</div>
+                        <div class="product-price">350,000 تومان</div>
+                        <a class="buy-button" href="https://aqayepardakht.ir/12466" target="_blank">پرداخت</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/math2.jpg" alt="جزوه ریاضی 2" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">جزوه ریاضی 2</div>
+                        <div class="product-grade">پایه یازدهم</div>
+                        <div class="product-price">450,000 تومان</div>
+                        <a class="buy-button" href="https://aqayepardakht.ir/12467" target="_blank">پرداخت</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/math3.jpg" alt="جزوه ریاضی 3" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">جزوه ریاضی 3</div>
+                        <div class="product-grade">پایه دوازدهم</div>
+                        <div class="product-price">320,000 تومان</div>
+                        <a class="buy-button" href="https://aqayepardakht.ir/12468" target="_blank">پرداخت</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Teacher 3 - Physics -->
+    <div class="teacher-card">
+        <div class="teacher-header" onclick="toggleProducts('chemistry')">
+            <div class="teacher-info">
+                <img src="images/saqi.jpg" alt="استاد فیزیک" class="teacher-avatar">
+                <div class="teacher-details">
+                    <h3>آقای ساقی</h3>
+                    <p>دبیر فیزیک</p>
+                </div>
+            </div>
+            <div class="dropdown-arrow" id="arrow-chemistry">▼</div>
+        </div>
+        <div class="products-container" id="products-chemistry">
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="images/phisic1.jpg" alt="جزوه فیزیک 1" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">جزوه هوشمند فیزیک 1</div>
+                        <div class="product-grade">پایه دهم</div>
+                        <div class="product-price">250,000 تومان</div>
+                        <a class="buy-button" href="https://aqayepardakht.ir/12460" target="_blank">پرداخت</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/phisic2.jpg" alt="جزوه فیزیک 2" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">جزوه هوشمند فیزیک 2</div>
+                        <div class="product-grade">پایه یازدهم</div>
+                        <div class="product-price">300,000 تومان</div>
+                        <a class="buy-button" href="https://aqayepardakht.ir/12461" target="_blank">پرداخت</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/phisic3.jpg" alt="جزوه هوشمند فیزیک 3" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">جزوه هوشمند فیزیک 3 - جلد اول</div>
+                        <div class="product-grade">پایه دوازدهم</div>
+                        <div class="product-price">200,000 تومان</div>
+                        <a class="buy-button" href="https://aqayepardakht.ir/12462" target="_blank">پرداخت</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <p><a href="https://jazebeedu.ir" style="color: white;" target="_blank">آموزشگاه علمی جاذبه</a></p>
+</footer>
+
+<script>
+    function toggleMobileMenu() {
+        const navMenu = document.getElementById('navMenu');
+        const mobileToggle = document.querySelector('.mobile-menu-toggle');
+
+        navMenu.classList.toggle('active');
+        mobileToggle.classList.toggle('active');
+    }
+
+    function toggleProducts(teacherId) {
+        const productsContainer = document.getElementById('products-' + teacherId);
+        const arrow = document.getElementById('arrow-' + teacherId);
+
+        if (productsContainer.classList.contains('active')) {
+            // بستن با انیمیشن آرام
+            productsContainer.classList.remove('active');
+            arrow.classList.remove('active');
+        } else {
+            // بستن سایر باکس‌ها
+            document.querySelectorAll('.products-container').forEach(container => {
+                container.classList.remove('active');
+            });
+            document.querySelectorAll('.dropdown-arrow').forEach(arrow => {
+                arrow.classList.remove('active');
+            });
+
+            // باز کردن با انیمیشن آرام
+            setTimeout(() => {
+                productsContainer.classList.add('active');
+                arrow.classList.add('active');
+            }, 100);
+        }
+    }
+
+    // Close mobile menu when clicking on menu items
+    document.querySelectorAll('.nav-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+            const navMenu = document.getElementById('navMenu');
+            const mobileToggle = document.querySelector('.mobile-menu-toggle');
+            navMenu.classList.remove('active');
+            mobileToggle.classList.remove('active');
+        });
+    });
+</script>
+</body>
+</html>
